@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/pushstat",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Push encode/decode helpers for stat payloads in pipelines.",
+  "bin": {
+    "pushstat": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/pushstat.git"
+  },
+  "homepage": "https://theworker02.github.io/pushstat/",
+  "keywords": [
+    "push",
+    "stat",
+    "encode",
+    "cli",
+    "toolkit"
+  ]
+}
